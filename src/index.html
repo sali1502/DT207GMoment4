@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment 4 || Registrera</title>
+    <link rel="stylesheet" href="css/main.scss">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <div class="menu-container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Registrera</a></li>
+                        <li><a href="login.html">Logga in</a></li>
+                        <li><a href="mypage.html">Mina sidor</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1>Registrera</h1>
+            <div class="text-container">
+                <form method="post" id="registerForm">
+
+                    <label for="username">Användarnamn</label><br>
+                    <input type="text" id="username" name="username" placeholder="Användarnamn" required><br>
+
+                    <label for="password">Lösenord</label><br>
+                    <input type="text" id="password" name="password" placeholder="Lösenord" required><br>
+
+                    <input type="submit" value="Registrera" class="button">
+                </form>
+            </div>
+        </main>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
