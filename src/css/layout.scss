@@ -30,7 +30,7 @@ body {
     color: rgb(0, 0, 0);
     background-image: url('../images/tree.jpg');
     background-size: cover;
-    background-repeat: repeat space;
+    background-repeat: repeat;
     text-align: center;
     margin: 0 auto 0 auto;
 }
@@ -41,13 +41,14 @@ body {
     margin: 0 auto 0 auto;
     margin-bottom: 5vh;
     font-size: 1.2em;
-    padding-top: 4vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .text-container {
     text-align: center;
     width: 100%;
-    padding-bottom: 5vh;
+    padding-bottom: 100vh;
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto 0 auto;
@@ -56,7 +57,7 @@ body {
 .list-container {
     text-align: center;
     width: 100%;
-    padding-bottom: 5vh;
+    padding-bottom: 100vh;
     padding-left: 30px;
     padding-right: 50px;
     margin: 0 auto 0 auto;
