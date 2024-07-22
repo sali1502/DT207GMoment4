@@ -189,7 +189,7 @@ input[type=text] {
     line-height: 1.5em;
 }
 
-#messageContainer {
+.message-container {
     color: rgb(161, 65, 65);
     margin-bottom: 5vh;
     text-align: left;
@@ -214,7 +214,19 @@ input[type=text] {
     animation: btnHover 2s 0s infinite both ease-out;
 }
 
+.message-container {
+    margin-top: 20px;
+}
 
+.success {
+    font-weight: bold;
+    color: rgb(0, 105, 79);
+}
+
+.error {
+    font-weight: bold;
+    color: rgb(161, 65, 65);
+}
 /* Media querys */
 
 /* dark mode */
