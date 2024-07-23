@@ -63,6 +63,13 @@ body {
     margin: 0 auto 0 auto;
 }
 
+.image-container {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100vh;
+    margin: 0 auto 0 auto;
+}
+
 h1 {
     font: 200% base.$font-stack;
     font-weight: bold;
@@ -72,6 +79,16 @@ h1 {
     margin-left: 50px;
     color: rgb(0, 105, 79);
     text-align: left;
+}
+
+h2 {
+    font: 100% base.$font-stack;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    color: rgb(0, 105, 79);
+    text-align: center;
 }
 
 p {
@@ -227,6 +244,7 @@ input[type=text] {
     font-weight: bold;
     color: rgb(161, 65, 65);
 }
+
 /* Media querys */
 
 /* dark mode */

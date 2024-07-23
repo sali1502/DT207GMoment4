@@ -4,8 +4,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "dev": "parcel src/*.html --open chrome",
-    "build": "parcel build src/*.html"
+    "dev": "parcel --open chrome",
+    "build": "parcel build"
   },
   "browserslist": ">0.5%, last 2 versions, not dead",
   "author": "",
@@ -14,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "sharp": "^0.31.3"
   }
 }
